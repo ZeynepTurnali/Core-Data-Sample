@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660C9D3B251A9E440014138A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C9D3A251A9E440014138A /* SecondViewController.swift */; };
+		660C9D3D251AA8750014138A /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 660C9D3C251AA8750014138A /* tap.png */; };
 		66B2F3042514F01A0030DCBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2F3032514F01A0030DCBA /* AppDelegate.swift */; };
 		66B2F3062514F01A0030DCBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2F3052514F01A0030DCBA /* SceneDelegate.swift */; };
 		66B2F3082514F01A0030DCBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B2F3072514F01A0030DCBA /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660C9D3A251A9E440014138A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		660C9D3C251AA8750014138A /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
 		66B2F3002514F01A0030DCBA /* ArtBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B2F3032514F01A0030DCBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66B2F3052514F01A0030DCBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		66B2F3022514F01A0030DCBA /* ArtBook */ = {
 			isa = PBXGroup;
 			children = (
+				660C9D3C251AA8750014138A /* tap.png */,
 				66B2F3032514F01A0030DCBA /* AppDelegate.swift */,
 				66B2F3052514F01A0030DCBA /* SceneDelegate.swift */,
 				66B2F3072514F01A0030DCBA /* ViewController.swift */,
+				660C9D3A251A9E440014138A /* SecondViewController.swift */,
 				66B2F3092514F01A0030DCBA /* Main.storyboard */,
 				66B2F30F2514F01C0030DCBA /* Assets.xcassets */,
 				66B2F3112514F01C0030DCBA /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				66B2F3132514F01C0030DCBA /* LaunchScreen.storyboard in Resources */,
 				66B2F3102514F01C0030DCBA /* Assets.xcassets in Resources */,
 				66B2F30B2514F01A0030DCBA /* Main.storyboard in Resources */,
+				660C9D3D251AA8750014138A /* tap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 				66B2F3082514F01A0030DCBA /* ViewController.swift in Sources */,
 				66B2F3042514F01A0030DCBA /* AppDelegate.swift in Sources */,
 				66B2F30E2514F01A0030DCBA /* ArtBook.xcdatamodeld in Sources */,
+				660C9D3B251A9E440014138A /* SecondViewController.swift in Sources */,
 				66B2F3062514F01A0030DCBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.zeynep.ArtBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.zeynep.ArtBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
